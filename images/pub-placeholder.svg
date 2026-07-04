@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="360" height="240" viewBox="0 0 360 240">
+  <rect width="360" height="240" fill="#f2f4f7" rx="8"/>
+  <rect x="40" y="46" width="120" height="90" fill="#c9d4e0" rx="6"/>
+  <rect x="180" y="46" width="140" height="12" fill="#c9d4e0" rx="4"/>
+  <rect x="180" y="70" width="120" height="12" fill="#d8e0e9" rx="4"/>
+  <rect x="180" y="94" width="130" height="12" fill="#d8e0e9" rx="4"/>
+  <text x="180" y="200" text-anchor="middle" font-family="Helvetica, Arial, sans-serif" font-size="16" fill="#8a97a5">paper thumbnail</text>
+</svg>
