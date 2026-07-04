@@ -154,33 +154,12 @@ h2 {
   margin-bottom: 28px;
 }
 
-.pub-thumb {
-  width: 320px;
-  height: 210px;
-  border-radius: 8px;
-  overflow: hidden;
-  border: 1px solid var(--rule);
-  background: #fafbfc;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.pub-thumb a {
-  display: flex;
-  width: 100%;
-  height: 100%;
-  align-items: center;
-  justify-content: center;
-}
-
 .pub-thumb img {
-  max-width: 100%;
-  max-height: 100%;
+  width: 100%;
+  max-height: 220px;
   object-fit: contain;
   display: block;
-  padding: 6px;
-  box-sizing: border-box;
+  border-radius: 6px;
 }
 
 .pub-text .venue-badge {
@@ -463,11 +442,6 @@ footer {
 
   .pub {
     grid-template-columns: 1fr;
-  }
-
-  .pub-thumb {
-    width: 100%;
-    height: 190px;
   }
 
   .entry-head {
