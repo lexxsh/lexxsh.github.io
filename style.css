@@ -101,9 +101,14 @@ a:hover {
   color: var(--accent);
 }
 
+.intro-photo {
+  display: flex;
+}
+
 .intro-photo img {
-  width: 230px;
-  height: auto;
+  width: 250px;
+  height: 100%;
+  object-fit: cover;
   display: block;
   border-radius: 6px;
 }
