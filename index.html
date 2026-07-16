@@ -20,6 +20,19 @@
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
+  <nav class="topnav">
+    <div class="topnav-inner">
+      <a class="nav-name" href="#">SangHyeok Lee</a>
+      <div class="nav-links">
+        <a href="#news">News</a>
+        <a href="#publications">Publications</a>
+        <a href="#education">Education</a>
+        <a href="#experience">Experience</a>
+        <a href="#awards">Awards</a>
+        <a href="#projects">Projects</a>
+      </div>
+    </div>
+  </nav>
   <main class="container">
 
     <!-- ===================== Header / Bio ===================== -->
@@ -52,7 +65,7 @@
     </section>
 
     <!-- ===================== News ===================== -->
-    <section>
+    <section id="news">
       <h2>News</h2>
       <ul class="news">
         <li><span class="date">Feb 2026</span><span>I'm excited to join LG AI Research as an AI Engineer Intern in the Physical Intelligence Lab!</span></li>
@@ -63,7 +76,7 @@
     </section>
 
     <!-- ===================== Publications ===================== -->
-    <section>
+    <section id="publications">
       <h2>Publications</h2>
       <div class="pub">
         <div class="pub-thumb">
@@ -75,6 +88,11 @@
           <span class="venue-badge">ICASSP 2026</span>
           <h3><a href="https://minsuk-ji.github.io/ReFocus/" target="_blank">Compositional Image Synthesis with Inference-Time Scaling</a></h3>
           <p class="authors">Minsuk Ji*, <strong>Sanghyeok Lee*</strong>, Namhyuk Ahn <span class="note">(* equal contribution)</span></p>
+          <p class="tldr"><strong>TL;DR:</strong> A training-free framework that improves compositional text-to-image generation by grounding LLM-synthesized layouts and reranking candidates with an object-centric VLM judge at inference time.</p>
+          <details class="abstract">
+            <summary>Abstract</summary>
+            <p>Despite their impressive realism, modern text-to-image models still struggle with compositionality, often failing to render accurate object counts, attributes, and spatial relations. To address this challenge, we present a training-free framework that combines an object-centric approach with self-refinement to improve layout faithfulness while preserving aesthetic quality. Specifically, we leverage large language models (LLMs) to synthesize explicit layouts from input prompts, and we inject these layouts into the image generation process, where a object-centric vision-language model (VLM) judge reranks multiple candidates to select the most prompt-aligned outcome iteratively. By unifying explicit layout-grounding with self-refine-based inference-time scaling, our framework achieves stronger scene alignment with prompts compared to recent text-to-image models.</p>
+          </details>
           <p class="pub-links">
             <a href="https://minsuk-ji.github.io/ReFocus/" target="_blank">Project Page</a>
             <a href="https://arxiv.org/abs/2510.24133" target="_blank">arXiv</a>
@@ -85,7 +103,7 @@
     </section>
 
     <!-- ===================== Education ===================== -->
-    <section>
+    <section id="education">
       <h2>Education</h2>
       <ul class="entries">
         <li>
@@ -105,7 +123,7 @@
     </section>
 
     <!-- ===================== Experience ===================== -->
-    <section>
+    <section id="experience">
       <h2>Experience</h2>
       <ul class="entries">
         <li>
@@ -145,38 +163,38 @@
     </section>
 
     <!-- ===================== Awards ===================== -->
-    <section>
+    <section id="awards">
       <h2>Awards &amp; Honors</h2>
       <ul class="awards">
         <li>
           <span class="date">2025.11</span>
           <span class="badge gold">1st</span>
-          <span class="award-body">Financial AI Challenge, AI track <span class="award-org">Financial Security Institute · Dacon</span></span>
+          <span class="award-body">Financial AI Challenge, AI track <a class="award-link" href="https://github.com/lexxsh/finance-AI-chellange" target="_blank"><i class="fab fa-github"></i> code</a> <a class="award-link" href="assets/slides/2025-finance-ai-challenge-slides.pdf" target="_blank"><i class="fas fa-file-pdf"></i> slides</a> <span class="award-org">Financial Security Institute · Dacon</span></span>
         </li>
         <li>
           <span class="date">2025.08</span>
           <span class="badge bronze">3rd</span>
-          <span class="award-body">SW-Centered University Digital Competition, AI Division <span class="award-org">Dacon</span></span>
+          <span class="award-body">SW-Centered University Digital Competition, AI Division <a class="award-link" href="https://github.com/lexxsh/SW-2025" target="_blank"><i class="fab fa-github"></i> code</a> <a class="award-link" href="assets/slides/2025-swuniv-digital-competition-slides.pdf" target="_blank"><i class="fas fa-file-pdf"></i> slides</a> <span class="award-org">Dacon</span></span>
         </li>
         <li>
           <span class="date">2025.08</span>
           <span class="badge bronze">3rd</span>
-          <span class="award-body">INHA AI Challenge <span class="award-org">Inha Univ · Dacon</span></span>
+          <span class="award-body">INHA AI Challenge <a class="award-link" href="https://github.com/aaiss0927/IC-2025" target="_blank"><i class="fab fa-github"></i> code</a> <span class="award-org">Inha Univ · Dacon</span></span>
         </li>
         <li>
           <span class="date">2025.06</span>
           <span class="badge silver">Silver</span>
-          <span class="award-body">Image Matching Challenge <span class="award-org">Kaggle</span></span>
+          <span class="award-body">Image Matching Challenge <a class="award-link" href="https://github.com/lexxsh/IMC-2025" target="_blank"><i class="fab fa-github"></i> code</a> <a class="award-link" href="https://www.kaggle.com/competitions/image-matching-challenge-2025" target="_blank"><i class="fab fa-kaggle"></i> kaggle</a> <span class="award-org">Kaggle</span></span>
         </li>
         <li>
           <span class="date">2025.06</span>
           <span class="badge plain">4th</span>
-          <span class="award-body">Bias-A-Thon: The Bias Response Challenge <span class="award-org">SKKU CMI · Dacon</span></span>
+          <span class="award-body">Bias-A-Thon: The Bias Response Challenge <a class="award-link" href="https://github.com/lexxsh/2025-Bias-track" target="_blank"><i class="fab fa-github"></i> code</a> <a class="award-link" href="assets/slides/2025-bias-a-thon-slides.pdf" target="_blank"><i class="fas fa-file-pdf"></i> slides</a> <span class="award-org">SKKU CMI · Dacon</span></span>
         </li>
         <li>
           <span class="date">2024.07</span>
           <span class="badge gold">1st</span>
-          <span class="award-body">INHA SW NET-Zero Collaborative Hackathon <span class="award-org">Inha Univ</span></span>
+          <span class="award-body">INHA SW NET-Zero Collaborative Hackathon <a class="award-link" href="https://github.com/Primero-INHA-NETZERO" target="_blank"><i class="fab fa-github"></i> code</a> <span class="award-org">Inha Univ</span></span>
         </li>
         <li>
           <span class="date">2025</span>
@@ -187,7 +205,7 @@
     </section>
 
     <!-- ===================== Projects ===================== -->
-    <section>
+    <section id="projects">
       <h2>Projects</h2>
       <div class="proj-grid">
         <div class="proj-card">
