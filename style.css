@@ -408,6 +408,10 @@ h2 {
   font-size: 0.85rem;
 }
 
+.proj-link + .proj-link {
+  margin-left: 12px;
+}
+
 /* ===================== Awards ===================== */
 .awards {
   list-style: none;
