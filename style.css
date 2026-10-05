@@ -391,7 +391,8 @@ h2 {
   background: #f7f9fb;
 }
 
-.proj-card > a img {
+.proj-card > a img,
+.proj-video {
   width: 100%;
   height: 160px;
   object-fit: contain;
@@ -401,16 +402,7 @@ h2 {
 }
 
 .proj-video {
-  display: block;
-  width: 100%;
-  aspect-ratio: 8 / 5;
-  object-fit: contain;
-  background: #000;
-}
-
-.proj-body .proj-caption {
-  font-size: 0.8rem;
-  color: var(--muted);
+  background: #f7f9fb;
 }
 
 .proj-body {
