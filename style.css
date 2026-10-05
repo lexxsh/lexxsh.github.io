@@ -400,6 +400,19 @@ h2 {
   box-sizing: border-box;
 }
 
+.proj-video {
+  display: block;
+  width: 100%;
+  aspect-ratio: 8 / 5;
+  object-fit: contain;
+  background: #000;
+}
+
+.proj-body .proj-caption {
+  font-size: 0.8rem;
+  color: var(--muted);
+}
+
 .proj-body {
   padding: 14px 16px 16px;
 }
@@ -452,7 +465,9 @@ h2 {
 
 .award-body {
   flex: 1;
+  min-width: 0;
   display: flex;
+  flex-wrap: wrap;
   align-items: baseline;
   gap: 10px;
 }
