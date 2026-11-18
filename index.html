@@ -1,324 +1,190 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>SangHyeok Lee</title>
-  <meta name="description" content="SangHyeok Lee — AI researcher interested in world models, diffusion models, and representation learning.">
-  <meta property="og:title" content="SangHyeok Lee">
-  <meta property="og:description" content="AI researcher interested in world models, diffusion models, and representation learning.">
-  <meta property="og:type" content="website">
-  <meta property="og:image" content="https://lexxsh.github.io/images/profile-main.jpeg">
-  <meta property="og:url" content="https://lexxsh.github.io/">
-  <link rel="icon" type="image/png" href="images/favicon.png">
-  <link rel="apple-touch-icon" href="images/favicon.png">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.9.4/css/academicons.min.css">
-  <link rel="stylesheet" href="style.css">
-</head>
-<body>
-  <!--
-  <nav class="topnav">
-    <div class="topnav-inner">
-      <a class="nav-name" href="#">SangHyeok Lee</a>
-      <div class="nav-links">
-        <a href="#news">News</a>
-        <a href="#publications">Publications</a>
-        <a href="#education">Education</a>
-        <a href="#experience">Experience</a>
-        <a href="#awards">Awards</a>
-        <a href="#projects">Projects</a>
-      </div>
-    </div>
-  </nav>
-  -->
-  <main class="container">
-
-    <!-- ===================== Header / Bio ===================== -->
-    <section class="intro">
-      <div class="intro-text">
-        <h1>SangHyeok Lee</h1>
-        <p>
-          I am an undergraduate student studying <a href="https://www.inha.ac.kr/" target="_blank">Information and Communication Engineering at Inha University</a>
-          and an undergraduate researcher at the <a href="https://unist-milab-research.github.io/" target="_blank">Multisensory Intelligence Lab</a> at <strong>UNIST</strong>.
-        </p>
-        <p>
-          My research focuses on <strong>world models</strong>, <strong>diffusion models</strong>, and <strong>representation learning</strong>.
-        </p>
-        <p class="links">
-          <a href="mailto:john8538@inha.edu"><i class="fas fa-envelope"></i> Email</a>
-          <a href="assets/LSH_CV.pdf" target="_blank"><i class="fas fa-file-lines"></i> CV</a>
-          <a href="https://scholar.google.com/citations?user=Z1JjvdMAAAAJ" target="_blank"><i class="ai ai-google-scholar"></i> Scholar</a>
-          <a href="https://github.com/lexxsh" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-          <a href="https://www.linkedin.com/in/lexxsh" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-        </p>
-      </div>
-      <div class="intro-photo">
-        <img class="profile-main" src="images/profile-main.jpeg" alt="SangHyeok Lee" onerror="this.src='images/profile-placeholder.svg'">
-        <img class="profile-secondary" src="images/profile-secondary.jpg" alt="" aria-hidden="true" onerror="this.style.display='none'">
-      </div>
-    </section>
-
-    <!-- ===================== News ===================== -->
-    <section id="news">
-      <h2>News</h2>
-      <ul class="news">
-        <li><span class="date">Sep 2026</span><span>I joined the Multisensory Intelligence Lab at UNIST as an undergraduate researcher.</span></li>
-        <li><span class="date">Jul 2026</span><span>We won 2nd place in the 5th Future Technology Challenge hosted by CJ Logistics 🥈</span></li>
-        <li><span class="date">Feb 2026</span><span>I'm excited to join LG AI Research as an AI Engineer Intern in the Physical Intelligence Lab!</span></li>
-        <li><span class="date">Jan 2026</span><span>Our paper on compositional image synthesis is accepted to ICASSP 2026 🎉</span></li>
-        <li><span class="date">Nov 2025</span><span>We won 1st place in the AI track at the Financial AI Challenge hosted by the Financial Security Institute 🏆</span></li>
-        <li><span class="date">Mar 2025</span><span>I joined the Generative Computing Lab at Inha University as an undergraduate researcher.</span></li>
-      </ul>
-    </section>
-
-    <!-- ===================== Publications ===================== -->
-    <section id="publications">
-      <h2>Publications</h2>
-      <div class="pub">
-        <div class="pub-thumb">
-          <a href="https://lexxsh.github.io/StyleComposer/" target="_blank">
-            <img src="images/pub-stylecomposer.webp" alt="StyleComposer qualitative results">
-          </a>
+  <head>
+    <meta charset="utf-8"/>
+    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+    <title> SangHyeok Lee </title>
+    <meta content="SangHyeok Lee — AI researcher interested in world models, diffusion models, and representation learning." name="description"/>
+    <meta content="SangHyeok Lee" property="og:title"/>
+    <meta content="AI researcher interested in world models, diffusion models, and representation learning." property="og:description"/>
+    <meta content="website" property="og:type"/>
+    <meta content="https://lexxsh.github.io/images/profile-main.jpeg" property="og:image"/>
+    <meta content="https://lexxsh.github.io/" property="og:url"/>
+    <link href="images/favicon.png" rel="icon" type="image/png"/>
+    <link href="images/favicon.png" rel="apple-touch-icon"/>
+    <link href="https://fonts.googleapis.com" rel="preconnect"/>
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,400;0,700;1,400&amp;display=swap" rel="stylesheet"/>
+    <link href="style.css" rel="stylesheet"/>
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+    <main class="container" id="main">
+      <section aria-labelledby="intro-heading" class="intro">
+        <div class="intro-text">
+          <h1 id="intro-heading"> SangHyeok Lee </h1>
+          <p> I am an undergraduate student studying <a href="https://www.inha.ac.kr/" rel="noopener noreferrer" target="_blank">Information and Communication Engineering at Inha University</a> and an undergraduate researcher at the <a href="https://unist-milab-research.github.io/" rel="noopener noreferrer" target="_blank">Multisensory Intelligence Lab</a> at <strong>UNIST</strong>. </p>
+          <p> My research focuses on <strong>world models</strong>, <strong>diffusion models</strong>, and <strong>representation learning</strong>. </p>
+          <p class="links"> <a href="mailto:john8538@inha.edu">Email</a> <a href="assets/LSH_CV.pdf" rel="noopener noreferrer" target="_blank">CV</a> <a href="https://scholar.google.com/citations?user=Z1JjvdMAAAAJ" rel="noopener noreferrer" target="_blank">Scholar</a> <a href="https://github.com/lexxsh" rel="noopener noreferrer" target="_blank">GitHub</a> <a href="https://www.linkedin.com/in/lexxsh" rel="noopener noreferrer" target="_blank">LinkedIn</a> </p>
         </div>
-        <div class="pub-text">
-          <span class="venue-badge">Under Review</span>
-          <h3><a href="https://lexxsh.github.io/StyleComposer/" target="_blank">StyleComposer: Training-Free Multi-Reference Style Composition</a></h3>
-          <p class="authors"><strong>Sanghyeok Lee</strong>, Jihye Kang, Namhyuk Ahn</p>
-          <p class="tldr"><strong>TL;DR:</strong> A training-free method that composes color, texture, and spatial structure from separate references and provides independent control over each attribute.</p>
-          <p class="pub-links">
-            <a href="https://lexxsh.github.io/StyleComposer/" target="_blank">Project Page</a>
-            <a href="https://arxiv.org/abs/2608.05213" target="_blank">arXiv</a>
-          </p>
+        <div class="intro-photo"> <img alt="SangHyeok Lee" class="profile-main" decoding="async" onerror="this.src='images/profile-placeholder.svg'" src="images/profile-main.jpeg"/> <img alt="" aria-hidden="true" class="profile-secondary" decoding="async" onerror="this.style.display='none'" src="images/profile-secondary.jpg"/> </div>
+      </section>
+      <section aria-labelledby="news-heading" id="news">
+        <h2 id="news-heading"> News </h2>
+        <ul class="news">
+          <li> <span class="date">Sep 2026</span> <span>I joined the Multisensory Intelligence Lab at UNIST as an undergraduate researcher.</span> </li>
+          <li> <span class="date">Feb 2026</span> <span>I joined LG AI Research as an AI Engineer Intern in the Physical Intelligence Lab.</span> </li>
+          <li> <span class="date">Jan 2026</span> <span>Our paper on compositional image synthesis was accepted to ICASSP 2026.</span> </li>
+        </ul>
+      </section>
+      <section aria-labelledby="publications-heading" id="publications">
+        <h2 id="publications-heading"> Publications </h2>
+        <div class="pub">
+          <div class="pub-thumb"> <a href="https://lexxsh.github.io/StyleComposer/" rel="noopener noreferrer" target="_blank"><img alt="StyleComposer qualitative results" decoding="async" loading="lazy" src="images/pub-stylecomposer.webp"/></a> </div>
+          <div class="pub-text">
+            <h3> <a href="https://lexxsh.github.io/StyleComposer/" rel="noopener noreferrer" target="_blank">StyleComposer: Training-Free Multi-Reference Style Composition</a> </h3>
+            <p class="authors"> <strong>Sanghyeok Lee</strong>, Jihye Kang, Namhyuk Ahn </p>
+            <p class="venue"> Under Review </p>
+            <p class="tldr"> Compose color, texture, and spatial structure from separate style references, with independent control and no training. </p>
+            <p class="pub-links"> <a href="https://lexxsh.github.io/StyleComposer/" rel="noopener noreferrer" target="_blank">Project</a> <a href="https://arxiv.org/abs/2608.05213" rel="noopener noreferrer" target="_blank">arXiv</a> </p>
+          </div>
         </div>
-      </div>
-      <div class="pub">
-        <div class="pub-thumb">
-          <a href="https://minsuk-ji.github.io/ReFocus/" target="_blank">
-            <img src="images/pub-refocus-qual.png" alt="Compositional Image Synthesis qualitative results" onerror="this.src='images/pub-placeholder.svg'">
-          </a>
+        <div class="pub">
+          <div class="pub-thumb"> <a href="https://minsuk-ji.github.io/ReFocus/" rel="noopener noreferrer" target="_blank"><img alt="Compositional Image Synthesis qualitative results" decoding="async" loading="lazy" onerror="this.src='images/pub-placeholder.svg'" src="images/pub-refocus-qual.png"/></a> </div>
+          <div class="pub-text">
+            <h3> <a href="https://minsuk-ji.github.io/ReFocus/" rel="noopener noreferrer" target="_blank">Compositional Image Synthesis with Inference-Time Scaling</a> </h3>
+            <p class="authors"> Minsuk Ji*, <strong>Sanghyeok Lee*</strong>, Namhyuk Ahn <span class="note">(* equal contribution)</span> </p>
+            <p class="venue"> ICASSP 2026 </p>
+            <p class="tldr"> Improve compositional image generation with LLM-generated layouts and an object-centric VLM judge at inference time. </p>
+            <p class="pub-links"> <a href="https://minsuk-ji.github.io/ReFocus/" rel="noopener noreferrer" target="_blank">Project</a> <a href="https://arxiv.org/abs/2510.24133" rel="noopener noreferrer" target="_blank">arXiv</a> <a href="https://github.com/gcl-inha/ReFocus" rel="noopener noreferrer" target="_blank">Code</a> </p>
+          </div>
         </div>
-        <div class="pub-text">
-          <span class="venue-badge">ICASSP 2026</span>
-          <h3><a href="https://minsuk-ji.github.io/ReFocus/" target="_blank">Compositional Image Synthesis with Inference-Time Scaling</a></h3>
-          <p class="authors">Minsuk Ji*, <strong>Sanghyeok Lee*</strong>, Namhyuk Ahn <span class="note">(* equal contribution)</span></p>
-          <p class="tldr"><strong>TL;DR:</strong> A training-free framework that improves compositional text-to-image generation by grounding LLM-synthesized layouts and reranking candidates with an object-centric VLM judge at inference time.</p>
-          <p class="pub-links">
-            <a href="https://minsuk-ji.github.io/ReFocus/" target="_blank">Project Page</a>
-            <a href="https://arxiv.org/abs/2510.24133" target="_blank">arXiv</a>
-            <a href="https://github.com/gcl-inha/ReFocus" target="_blank">Code</a>
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <!-- ===================== Education ===================== -->
-    <section id="education">
-      <h2>Education</h2>
-      <ul class="entries">
-        <li>
-          <img class="entry-logo" src="images/logo-inha.png" alt="Inha University">
-          <div class="entry-content">
-            <div class="entry-head">
-              <span class="entry-title">Inha University</span>
-              <span class="date">Mar 2020 – Feb 2027</span>
+      </section>
+      <section aria-labelledby="experience-heading" id="experience">
+        <h2 id="experience-heading"> Experience </h2>
+        <ul class="entries">
+          <li>
+            <img alt="UNIST" class="entry-logo" decoding="async" loading="lazy" src="images/logo-unist.png"/>
+            <div class="entry-content">
+              <div class="entry-head"> <span class="entry-title"><a href="https://unist-milab-research.github.io/" rel="noopener noreferrer" target="_blank">Multisensory Intelligence Lab</a> <span class="entry-org">· UNIST</span></span> <span class="date">Sep 2026 – Present</span> </div>
+              <div class="entry-sub"> Undergraduate Researcher <span class="entry-advisor">(Advisor: <a href="https://ardasnck.github.io/" rel="noopener noreferrer" target="_blank">Prof. Arda Senocak</a>)</span> </div>
+              <p> Multisensory intelligence and multimodal learning. </p>
             </div>
-            <div class="entry-head">
-              <span class="entry-sub">B.S. in Information and Communication Engineering</span>
-              <span class="entry-right">GPA 3.75 / 4.5 <span class="award-org">(Major 3.79 / 4.5)</span></span>
+          </li>
+          <li>
+            <img alt="LG AI Research" class="entry-logo" decoding="async" loading="lazy" src="images/logo-lg.png"/>
+            <div class="entry-content">
+              <div class="entry-head"> <span class="entry-title">LG AI Research <span class="entry-org">· Physical Intelligence Lab</span></span> <span class="date">Feb 2026 – Aug 2026</span> </div>
+              <div class="entry-sub"> AI Engineer Intern </div>
+              <p> VLM-based manufacturing defect inspection with data refinement and supervised fine-tuning. </p>
             </div>
-          </div>
-        </li>
-      </ul>
-    </section>
-
-    <!-- ===================== Experience ===================== -->
-    <section id="experience">
-      <h2>Experience</h2>
-      <ul class="entries">
-        <li>
-          <img class="entry-logo" src="images/logo-unist.png" alt="UNIST">
-          <div class="entry-content">
-            <div class="entry-head">
-              <span class="entry-title"><a href="https://unist-milab-research.github.io/" target="_blank">Multisensory Intelligence Lab</a> <span class="entry-org">· UNIST</span></span>
-              <span class="date">Sep 2026 – Present</span>
+          </li>
+          <li>
+            <img alt="Inha University" class="entry-logo" decoding="async" loading="lazy" src="images/logo-inha.png"/>
+            <div class="entry-content">
+              <div class="entry-head"> <span class="entry-title"><a href="https://gcl-inha.github.io/" rel="noopener noreferrer" target="_blank">Generative Computing Lab</a> <span class="entry-org">· Inha University</span></span> <span class="date">Mar 2025 – Oct 2026</span> </div>
+              <div class="entry-sub"> Undergraduate Researcher <span class="entry-advisor">(Advisor: <a href="https://nmhkahn.github.io/" rel="noopener noreferrer" target="_blank">Prof. Namhyuk Ahn</a>)</span> </div>
+              <p> Diffusion models and generative AI. </p>
             </div>
-            <div class="entry-sub">Undergraduate Researcher <span class="entry-advisor">(Advisor: <a href="https://ardasnck.github.io/" target="_blank">Prof. Arda Senocak</a>)</span></div>
-            <p>Conducting research on multisensory intelligence and multimodal learning.</p>
-          </div>
-        </li>
-        <li>
-          <img class="entry-logo" src="images/logo-lg.png" alt="LG AI Research">
-          <div class="entry-content">
-            <div class="entry-head">
-              <span class="entry-title">LG AI Research <span class="entry-org">· Physical Intelligence Lab</span></span>
-              <span class="date">Feb 2026 – Aug 2026</span>
+          </li>
+          <li>
+            <img alt="Naver Connect Foundation" class="entry-logo" decoding="async" loading="lazy" src="images/logo-naver.png"/>
+            <div class="entry-content">
+              <div class="entry-head"> <span class="entry-title">Naver Boostcamp AI Tech (7th) <span class="entry-org">· Naver Connect Foundation</span></span> <span class="date">Aug 2024 – Feb 2025</span> </div>
+              <div class="entry-sub"> Trainee </div>
+              <p> Computer vision training; ranked first in two competitions. </p>
             </div>
-            <div class="entry-sub">AI Engineer Intern</div>
-            <p>Building a VLM-based defect-inspection pipeline for manufacturing through data-centric refinement and supervised fine-tuning.</p>
-          </div>
-        </li>
-        <li>
-          <img class="entry-logo" src="images/logo-inha.png" alt="Inha University">
-          <div class="entry-content">
-            <div class="entry-head">
-              <span class="entry-title"><a href="https://gcl-inha.github.io/" target="_blank">Generative Computing Lab</a> <span class="entry-org">· Inha University</span></span>
-              <span class="date">Mar 2025 – Oct 2026</span>
+          </li>
+        </ul>
+      </section>
+      <section aria-labelledby="education-heading" id="education">
+        <h2 id="education-heading"> Education </h2>
+        <ul class="entries">
+          <li>
+            <img alt="Inha University" class="entry-logo" decoding="async" loading="lazy" src="images/logo-inha.png"/>
+            <div class="entry-content">
+              <div class="entry-head"> <span class="entry-title">Inha University</span> <span class="date">Mar 2020 – Feb 2027</span> </div>
+              <div class="entry-head"> <span class="entry-sub">B.S. in Information and Communication Engineering</span> </div>
             </div>
-            <div class="entry-sub">Undergraduate Researcher <span class="entry-advisor">(Advisor: <a href="https://nmhkahn.github.io/" target="_blank">Prof. Namhyuk Ahn</a>)</span></div>
-            <p>Research on diffusion models and generative AI across diverse domains.</p>
-          </div>
-        </li>
-        <li>
-          <img class="entry-logo" src="images/logo-naver.png" alt="Naver Connect Foundation">
-          <div class="entry-content">
-            <div class="entry-head">
-              <span class="entry-title">Naver Boostcamp AI Tech (7th) <span class="entry-org">· Naver Connect Foundation</span></span>
-              <span class="date">Aug 2024 – Feb 2025</span>
+          </li>
+        </ul>
+      </section>
+      <section aria-labelledby="awards-heading" id="awards">
+        <h2 id="awards-heading"> Awards &amp; Honors </h2>
+        <ul class="awards">
+          <li> <span class="date">2026.10</span> <span class="award-body"><span class="award-title"><strong class="award-rank">1st</strong> · Satellite Monitoring AI Challenge, Facility Change Detection</span> <a class="award-link" href="https://aifactory.space/ko/competitions/9306" rel="noopener noreferrer" target="_blank">Competition</a> <span class="award-org">Korea National Park Service</span></span> </li>
+          <li> <span class="date">2026.09</span> <span class="award-body"><span class="award-title"><strong class="award-rank">2nd</strong> · INHA AI Challenge, World Model</span> <span class="award-org">Inha Univ</span></span> </li>
+          <li> <span class="date">2026.07</span> <span class="award-body"><span class="award-title"><strong class="award-rank">2nd</strong> · Future Technology Challenge, CCTV-based Cargo Object Analysis</span> <a class="award-link" href="assets/certificates/2026-cj-future-technology-challenge.pdf" rel="noopener noreferrer" target="_blank">Certificate</a> <span class="award-org">CJ Logistics</span></span> </li>
+          <li> <span class="date">2025.11</span> <span class="award-body"><span class="award-title"><strong class="award-rank">1st</strong> · Financial AI Challenge, AI track</span> <span class="award-org">Financial Security Institute · Dacon</span></span> </li>
+        </ul>
+        <details class="archive">
+          <summary> More awards &amp; honors (6) </summary>
+          <ul class="awards">
+            <li> <span class="date">2025.08</span> <span class="award-body"><span class="award-title"><strong class="award-rank">3rd</strong> · SW-Centered University Digital Competition, AI Division</span> <a class="award-link" href="https://github.com/lexxsh/SW-2025" rel="noopener noreferrer" target="_blank">Code</a> <a class="award-link" href="assets/slides/2025-swuniv-digital-competition-slides.pdf" rel="noopener noreferrer" target="_blank">Slides</a> <span class="award-org">Dacon</span></span> </li>
+            <li> <span class="date">2025.08</span> <span class="award-body"><span class="award-title"><strong class="award-rank">3rd</strong> · INHA AI Challenge</span> <a class="award-link" href="https://github.com/aaiss0927/IC-2025" rel="noopener noreferrer" target="_blank">Code</a> <span class="award-org">Inha Univ · Dacon</span></span> </li>
+            <li> <span class="date">2025.06</span> <span class="award-body"><span class="award-title"><strong class="award-rank">Silver</strong> · Image Matching Challenge</span> <a class="award-link" href="https://github.com/lexxsh/IMC-2025" rel="noopener noreferrer" target="_blank">Code</a> <a class="award-link" href="https://www.kaggle.com/competitions/image-matching-challenge-2025" rel="noopener noreferrer" target="_blank">Kaggle</a> <span class="award-org">Kaggle</span></span> </li>
+            <li> <span class="date">2025.06</span> <span class="award-body"><span class="award-title"><strong class="award-rank">4th</strong> · Bias-A-Thon: The Bias Response Challenge</span> <a class="award-link" href="https://github.com/lexxsh/2025-Bias-track" rel="noopener noreferrer" target="_blank">Code</a> <a class="award-link" href="assets/slides/2025-bias-a-thon-slides.pdf" rel="noopener noreferrer" target="_blank">Slides</a> <span class="award-org">SKKU CMI · Dacon</span></span> </li>
+            <li> <span class="date">2024.07</span> <span class="award-body"><span class="award-title"><strong class="award-rank">1st</strong> · INHA SW NET-Zero Collaborative Hackathon</span> <a class="award-link" href="https://github.com/Primero-INHA-NETZERO" rel="noopener noreferrer" target="_blank">Code</a> <span class="award-org">Inha Univ</span></span> </li>
+            <li> <span class="date">2025</span> <span class="award-body"><span class="award-title"><strong class="award-rank">Scholar</strong> · Geumgang Hong Soon-Tak Scholarship Foundation</span> <span class="award-org">Academic Excellence</span></span> </li>
+          </ul>
+        </details>
+      </section>
+      <section aria-labelledby="projects-heading" id="projects">
+        <h2 id="projects-heading"> Selected Projects </h2>
+        <div class="project-list">
+          <article class="project" id="inha-world-model">
+            <a aria-label="Watch Robot World Model demo" class="project-thumb" href="assets/videos/2026-inha-world-model-challenge-demo.mp4" rel="noopener noreferrer" target="_blank"><img alt="Robot World Model video comparison" decoding="async" loading="lazy" src="images/proj-inha-world-model.jpg"/></a>
+            <div class="proj-body">
+              <h3 class="proj-title"> Robot World Model </h3>
+              <p> Action-conditioned robot video generation with Cosmos-Predict2.5, LoRA, and inverse-dynamics supervision. </p>
+              <p class="project-links"> <a class="proj-link" href="https://github.com/lexxsh/inha_chall_2026" rel="noopener noreferrer" target="_blank">Code</a> <a class="proj-link" href="assets/slides/2026-inha-world-model-challenge-slides.pdf" rel="noopener noreferrer" target="_blank">Slides</a> <a class="proj-link" href="assets/videos/2026-inha-world-model-challenge-demo.mp4" rel="noopener noreferrer" target="_blank">Video</a> </p>
             </div>
-            <div class="entry-sub">Trainee</div>
-            <p>Intensive AI program focused on computer vision, ranking 1st in two of its competitions.</p>
-          </div>
-        </li>
-      </ul>
-    </section>
-
-    <!-- ===================== Awards ===================== -->
-    <section id="awards">
-      <h2>Awards &amp; Honors</h2>
-      <ul class="awards">
-        <li>
-          <span class="date">2026.10</span>
-          <span class="badge gold">1st</span>
-          <span class="award-body">Satellite Monitoring AI Challenge, Facility Change Detection <a class="award-link" href="https://aifactory.space/ko/competitions/9306" target="_blank" rel="noopener noreferrer"><i class="fas fa-link"></i> competition</a> <span class="award-org">Korea National Park Service</span></span>
-        </li>
-        <li>
-          <span class="date">2026.09</span>
-          <span class="badge silver">2nd</span>
-          <span class="award-body">INHA AI Challenge, World Model <a class="award-link" href="https://github.com/lexxsh/inha_chall_2026" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> code</a> <a class="award-link" href="assets/slides/2026-inha-world-model-challenge-slides.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> slides</a> <span class="award-org">Inha Univ</span></span>
-        </li>
-        <li>
-          <span class="date">2026.07</span>
-          <span class="badge silver">2nd</span>
-          <span class="award-body">Future Technology Challenge, CCTV-based Cargo Object Analysis <a class="award-link" href="https://github.com/lexxsh/CJ-challenge" target="_blank"><i class="fab fa-github"></i> code</a> <a class="award-link" href="assets/certificates/2026-cj-future-technology-challenge.pdf" target="_blank"><i class="fas fa-file-pdf"></i> certificate</a> <span class="award-org">CJ Logistics</span></span>
-        </li>
-        <li>
-          <span class="date">2025.11</span>
-          <span class="badge gold">1st</span>
-          <span class="award-body">Financial AI Challenge, AI track <a class="award-link" href="https://github.com/lexxsh/finance-AI-chellange" target="_blank"><i class="fab fa-github"></i> code</a> <a class="award-link" href="assets/slides/2025-finance-ai-challenge-slides.pdf" target="_blank"><i class="fas fa-file-pdf"></i> slides</a> <a class="award-link" href="https://kode.kt.com/blog/article/10174?mainCategoryId=1&amp;subCategoryId=3&amp;nav_info=%2F%3F" target="_blank"><i class="fas fa-microphone-lines"></i> interview</a> <span class="award-org">Financial Security Institute · Dacon</span></span>
-        </li>
-        <li>
-          <span class="date">2025.08</span>
-          <span class="badge bronze">3rd</span>
-          <span class="award-body">SW-Centered University Digital Competition, AI Division <a class="award-link" href="https://github.com/lexxsh/SW-2025" target="_blank"><i class="fab fa-github"></i> code</a> <a class="award-link" href="assets/slides/2025-swuniv-digital-competition-slides.pdf" target="_blank"><i class="fas fa-file-pdf"></i> slides</a> <span class="award-org">Dacon</span></span>
-        </li>
-        <li>
-          <span class="date">2025.08</span>
-          <span class="badge bronze">3rd</span>
-          <span class="award-body">INHA AI Challenge <a class="award-link" href="https://github.com/aaiss0927/IC-2025" target="_blank"><i class="fab fa-github"></i> code</a> <span class="award-org">Inha Univ · Dacon</span></span>
-        </li>
-        <li>
-          <span class="date">2025.06</span>
-          <span class="badge silver">Silver</span>
-          <span class="award-body">Image Matching Challenge <a class="award-link" href="https://github.com/lexxsh/IMC-2025" target="_blank"><i class="fab fa-github"></i> code</a> <a class="award-link" href="https://www.kaggle.com/competitions/image-matching-challenge-2025" target="_blank"><i class="fab fa-kaggle"></i> kaggle</a> <span class="award-org">Kaggle</span></span>
-        </li>
-        <li>
-          <span class="date">2025.06</span>
-          <span class="badge plain">4th</span>
-          <span class="award-body">Bias-A-Thon: The Bias Response Challenge <a class="award-link" href="https://github.com/lexxsh/2025-Bias-track" target="_blank"><i class="fab fa-github"></i> code</a> <a class="award-link" href="assets/slides/2025-bias-a-thon-slides.pdf" target="_blank"><i class="fas fa-file-pdf"></i> slides</a> <span class="award-org">SKKU CMI · Dacon</span></span>
-        </li>
-        <li>
-          <span class="date">2024.07</span>
-          <span class="badge gold">1st</span>
-          <span class="award-body">INHA SW NET-Zero Collaborative Hackathon <a class="award-link" href="https://github.com/Primero-INHA-NETZERO" target="_blank"><i class="fab fa-github"></i> code</a> <span class="award-org">Inha Univ</span></span>
-        </li>
-        <li>
-          <span class="date">2025</span>
-          <span class="badge honor">Scholar</span>
-          <span class="award-body">Geumgang Hong Soon-Tak Scholarship Foundation <span class="award-org">Academic Excellence</span></span>
-        </li>
-      </ul>
-    </section>
-
-    <!-- ===================== Projects ===================== -->
-    <section id="projects">
-      <h2>Projects</h2>
-      <div class="proj-grid">
-        <div class="proj-card" id="inha-world-model">
-          <video class="proj-video" controls playsinline loop preload="none" poster="images/proj-inha-world-model.jpg" aria-label="Robot video generation comparison: ground truth, official baseline, and our method">
-            <source src="assets/videos/2026-inha-world-model-challenge-demo.mp4" type="video/mp4">
-            Your browser does not support embedded video. <a href="assets/videos/2026-inha-world-model-challenge-demo.mp4">Download the demo video</a>.
-          </video>
-          <div class="proj-body">
-            <div class="proj-title">Robot World Model <span class="badge silver">2nd</span></div>
-            <p>Action-conditioned robot video generation using Cosmos-Predict2.5-2B, LoRA, and inverse-dynamics supervision. Ranked 2nd in the 2026 INHA AI Challenge (private score: 0.19226).</p>
-            <a class="proj-link" href="https://github.com/lexxsh/inha_chall_2026" target="_blank" rel="noopener noreferrer"><i class="fab fa-github"></i> code</a>
-            <a class="proj-link" href="assets/slides/2026-inha-world-model-challenge-slides.pdf" target="_blank" rel="noopener noreferrer"><i class="fas fa-file-pdf"></i> slides</a>
-            <a class="proj-link" href="assets/videos/2026-inha-world-model-challenge-demo.mp4" target="_blank" rel="noopener noreferrer"><i class="fas fa-video"></i> video</a>
-          </div>
+          </article>
+          <article class="project">
+            <a class="project-thumb" href="https://github.com/lexxsh/CJ-challenge" rel="noopener noreferrer" target="_blank"><img alt="CCTV-based cargo object analysis pipeline" decoding="async" loading="lazy" src="images/proj-cj-cctv.png"/></a>
+            <div class="proj-body">
+              <h3 class="proj-title"> CCTV-based Cargo Analysis </h3>
+              <p> Parcel counting and size estimation from conveyor-belt CCTV, combining detection, tracking, and depth. </p>
+              <p class="project-links"> <a class="proj-link" href="https://github.com/lexxsh/CJ-challenge" rel="noopener noreferrer" target="_blank">Code</a> </p>
+            </div>
+          </article>
+          <article class="project">
+            <a class="project-thumb" href="https://github.com/lexxsh/finance-AI-chellange" rel="noopener noreferrer" target="_blank"><img alt="Financial AI Challenge RAG system" decoding="async" loading="lazy" src="images/proj-finance.png"/></a>
+            <div class="proj-body">
+              <h3 class="proj-title"> Financial Security QA System </h3>
+              <p> A financial security RAG system with retrieval, reranking, and self-consistency validation. </p>
+              <p class="project-links"> <a class="proj-link" href="assets/slides/2025-finance-ai-challenge-slides.pdf" rel="noopener noreferrer" target="_blank">Slides</a><a class="proj-link" href="https://github.com/lexxsh/finance-AI-chellange" rel="noopener noreferrer" target="_blank">Code</a> <a class="proj-link" href="https://kode.kt.com/blog/article/10174?mainCategoryId=1&amp;subCategoryId=3&amp;nav_info=%2F%3F" rel="noopener noreferrer" target="_blank">Interview</a> </p>
+            </div>
+          </article>
         </div>
-        <div class="proj-card">
-          <a href="https://github.com/lexxsh/CJ-challenge" target="_blank">
-            <img src="images/proj-cj-cctv.png" alt="CCTV-based cargo object analysis pipeline">
-          </a>
-          <div class="proj-body">
-            <div class="proj-title">CCTV-based Cargo Analysis <span class="badge silver">2nd</span></div>
-            <p>End-to-end parcel counting and size estimation from conveyor-belt CCTV. The pipeline combines multi-view RF-DETR detection, OC-SORT tracking, rail-referenced geometry and depth, and a six-model CNN ensemble without requiring camera intrinsics.</p>
-            <a class="proj-link" href="https://github.com/lexxsh/CJ-challenge" target="_blank"><i class="fab fa-github"></i> code</a>
+        <details class="archive">
+          <summary> Earlier projects (3) </summary>
+          <div class="project-list earlier-projects">
+            <article class="project">
+              <div class="proj-body">
+                <h3 class="proj-title"> SummarAI: Paper Chatbot </h3>
+                <p> PDF understanding and retrieval-augmented question answering over formulas, tables, and figures. </p>
+                <p class="project-links"> <a class="proj-link" href="https://github.com/boostcampaitech7/level4-cv-finalproject-hackathon-cv-12-lv3" rel="noopener noreferrer" target="_blank">Code</a> </p>
+              </div>
+            </article>
+            <article class="project">
+              <div class="proj-body">
+                <h3 class="proj-title"> Hand Bone Segmentation </h3>
+                <p> Medical X-ray segmentation with UNet++ and soft ensembling; ranked first of 23 teams. </p>
+                <p class="project-links"> <a class="proj-link" href="https://github.com/lexxsh/level2-cv-semanticsegmentation-cv-12-lv3" rel="noopener noreferrer" target="_blank">Code</a> </p>
+              </div>
+            </article>
+            <article class="project">
+              <div class="proj-body">
+                <h3 class="proj-title"> Recyclable Waste Detection </h3>
+                <p> Waste detection with augmentation and model ensembling; ranked first of 24 teams. </p>
+                <p class="project-links"> <a class="proj-link" href="https://github.com/lexxsh/level2-objectdetection-cv-05" rel="noopener noreferrer" target="_blank">Code</a> </p>
+              </div>
+            </article>
           </div>
-        </div>
-        <div class="proj-card">
-          <a href="https://github.com/lexxsh/finance-AI-chellange" target="_blank">
-            <img src="images/proj-finance.png" alt="Financial AI Challenge RAG system">
-          </a>
-          <div class="proj-body">
-            <div class="proj-title">Financial Security QA System <span class="badge gold">1st</span></div>
-            <p>Advanced RAG system for financial security QA built on KT Mi:dm 11.5B — FAISS retrieval, reranking, and self-consistency validation. Winner of the Financial Security Institute's Financial AI Challenge.</p>
-            <a class="proj-link" href="https://github.com/lexxsh/finance-AI-chellange" target="_blank"><i class="fab fa-github"></i> code</a>
-            <a class="proj-link" href="https://kode.kt.com/blog/article/10174?mainCategoryId=1&amp;subCategoryId=3&amp;nav_info=%2F%3F" target="_blank"><i class="fas fa-microphone-lines"></i> interview</a>
-          </div>
-        </div>
-        <div class="proj-card">
-          <a href="https://github.com/boostcampaitech7/level4-cv-finalproject-hackathon-cv-12-lv3" target="_blank">
-            <img src="images/proj-summarai.png" alt="SummarAI paper chatbot">
-          </a>
-          <div class="proj-body">
-            <div class="proj-title">SummarAI: Paper Chatbot</div>
-            <p>End-to-end PDF understanding pipeline (formulas, tables, figures) with an advanced RAG stack — HyDE, query refinement, and reranking — scoring 0.75 on the Allganize Korean RAG benchmark.</p>
-            <a class="proj-link" href="https://github.com/boostcampaitech7/level4-cv-finalproject-hackathon-cv-12-lv3" target="_blank"><i class="fab fa-github"></i> code</a>
-          </div>
-        </div>
-        <div class="proj-card">
-          <a href="https://github.com/lexxsh/level2-cv-semanticsegmentation-cv-12-lv3" target="_blank">
-            <img src="images/proj-handbone.png" alt="Hand bone semantic segmentation">
-          </a>
-          <div class="proj-body">
-            <div class="proj-title">Hand Bone Segmentation <span class="badge gold">1st</span></div>
-            <p>Medical X-ray semantic segmentation with UNet++ and custom encoder backbones, boosting the Dice score by 4.5%p with a soft-ensemble strategy. Ranked 1st of 23 teams.</p>
-            <a class="proj-link" href="https://github.com/lexxsh/level2-cv-semanticsegmentation-cv-12-lv3" target="_blank"><i class="fab fa-github"></i> code</a>
-          </div>
-        </div>
-        <div class="proj-card">
-          <a href="https://github.com/lexxsh/level2-objectdetection-cv-05" target="_blank">
-            <img src="images/proj-detection.png" alt="Recyclable waste object detection">
-          </a>
-          <div class="proj-body">
-            <div class="proj-title">Recyclable Waste Detection <span class="badge gold">1st</span></div>
-            <p>Detection pipeline built on MMDetection (DINO, CO-DETR, Cascade R-CNN), improving mAP50 from 49% to 76% with SR augmentation, TTA, and WBF ensembling. Ranked 1st of 24 teams.</p>
-            <a class="proj-link" href="https://github.com/lexxsh/level2-objectdetection-cv-05" target="_blank"><i class="fab fa-github"></i> code</a>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <footer>
-      <span class="footer-updated">Last updated: Oct 2026</span>
-      <span class="footer-name">&copy; 2026 SangHyeok Lee</span>
-    </footer>
-
-  </main>
-</body>
+        </details>
+      </section>
+      <footer> <span class="footer-updated">Last updated: Nov 2026</span> <span class="footer-name">© 2026 SangHyeok Lee</span> </footer>
+    </main>
+  </body>
 </html>
