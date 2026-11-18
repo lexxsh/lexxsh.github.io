@@ -69,10 +69,12 @@ h1 { font-size: 34px; line-height: 1.2; letter-spacing: -.035em; margin-bottom: 
 .awards { list-style: none; }
 .awards li { display: grid; grid-template-columns: 62px 1fr; gap: 16px; margin-bottom: 12px; font-size: 13px; }
 .award-body { min-width: 0; }
-.award-title { margin-right: 8px; }
+.award-head { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; }
+.award-title { min-width: 0; }
 .award-rank { font-weight: 700; }
-.award-org { display: block; color: var(--muted); font-size: 12px; }
-.award-link { font-size: 12px; margin-right: 9px; white-space: nowrap; }
+.award-org { flex: 0 0 auto; max-width: 38%; color: var(--muted); font-size: 12px; text-align: right; }
+.award-links { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 3px; }
+.award-link { font-size: 12px; white-space: nowrap; }
 
 .project-list { display: grid; gap: 20px; }
 .project { display: grid; grid-template-columns: 116px 1fr; gap: 20px; align-items: center; }
@@ -82,7 +84,7 @@ h1 { font-size: 34px; line-height: 1.2; letter-spacing: -.035em; margin-bottom: 
 .proj-body > p { font-size: 13px; color: var(--muted); }
 .proj-body .project-links { margin-top: 4px; font-size: 12px; }
 .archive { margin-top: 18px; }
-.archive summary { width: fit-content; cursor: pointer; color: var(--accent); font-size: 13px; padding: 4px 0; }
+.archive summary { width: fit-content; cursor: pointer; color: var(--text); font-size: 13px; padding: 4px 0; }
 .archive summary:hover { text-decoration: underline; text-underline-offset: 3px; }
 .archive[open] summary { margin-bottom: 14px; }
 .earlier-projects { padding-left: 16px; border-left: 1px solid var(--rule); gap: 16px; }
@@ -119,6 +121,8 @@ footer { display: flex; justify-content: space-between; gap: 12px; border-top: 1
   .entries li { gap: 12px; }
   .entry-advisor { display: block; }
   .awards li { grid-template-columns: 52px 1fr; gap: 12px; }
+  .award-head { flex-direction: column; gap: 1px; }
+  .award-org { max-width: none; text-align: left; }
   .project { grid-template-columns: 84px 1fr; gap: 14px; align-items: start; }
   .project-thumb { margin-top: 4px; }
   .project-thumb img { width: 84px; height: 65px; }
