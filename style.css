@@ -76,8 +76,11 @@ h1 { font-size: 34px; line-height: 1.2; letter-spacing: -.035em; margin-bottom: 
 .award-title { min-width: 0; }
 .award-rank { font-weight: 700; }
 .award-org { flex: 0 0 auto; margin-left: auto; max-width: 38%; color: var(--muted); font-size: 12px; text-align: right; }
-.award-links { display: flex; flex-wrap: wrap; gap: 4px 14px; margin-top: 3px; }
-.award-link { color: var(--text); font-size: 12px; white-space: nowrap; }
+.award-links { display: flex; flex-wrap: wrap; margin-top: 3px; }
+.award-links, .project-links { gap: 4px 8px; }
+.award-links a, .project-links a { color: var(--accent); }
+.link-separator { color: #9aa2ad; user-select: none; font-size: 12px; }
+.award-link { font-size: 12px; white-space: nowrap; }
 
 .project-list { display: grid; gap: 20px; }
 .project { display: grid; grid-template-columns: 116px 1fr; gap: 20px; align-items: center; }
